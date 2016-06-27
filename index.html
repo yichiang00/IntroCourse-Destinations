@@ -7,6 +7,33 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <form id="place-form" class="form-group">
+        <label for="places">destination </label>
+        <input id="places" class="form-control" type="text" value="" >
+        <label for="landmarks">landmarks</label>
+        <input id="landmarks" class="form-control" type="text" value="" >
+        <label for="year">year</label>
+        <input id="year" class="form-control" type="number" value="">
+        <label for="spending">Cost</label>
+        <input id="spending" class="form-control" type="number" value="">
+        <label for="friends">Friends</label>
+        <input id="friends" class="form-control" type="text" value="" >
+        <label for="photo">Photo</label>
+        <input id="photo" class="form-control" type="text" value="" >
+        <label for="note">note</label>
+        <input id="note" class="form-control" type="text" value="" >
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div class="row">
+        <div class="output col-xs-4">
+          <ul id="output-first"></ul>
+        </div>
+        <div class="details-container col-xs-8">
+          <ul id="details"></ul>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
